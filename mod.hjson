@@ -1,17 +1,17 @@
 #the mod name as displayed in-game
-displayName: "Inf processor!"
+displayName: "World processor 2"
 
 #the internal name of your mod
 name: "inf-processor"
 
 #your name
-author: "exec4tble"
+author: "exec4tbe"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "infprocessor.InfProcessorMod"
 
 #the mod description as seen in the mod dialog
-description: "An infinite processor with "world access" turned on and can be built in any gamemode!."
+description: "world processors that are accesible from anywhere."
 
 #the mod version
 version: 1.0
