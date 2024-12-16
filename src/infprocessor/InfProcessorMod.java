@@ -16,7 +16,7 @@ public class InfProcessorMod extends Mod {
 
     @Override
     public void loadContent() {
-        Log.info("000000000000000\\nInf-Processor блок зарегистрирован 2");
+        Log.info("Registered World Processors");
         worldProcessor2 = new InfProcessor("world-processor-2") {{
             requirements(Category.logic, with(Items.copper, 100, Items.lead, 100));
             size = 1;
