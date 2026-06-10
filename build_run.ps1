@@ -1,0 +1,1 @@
+.\gradlew.bat clean build  && rm "C:\Users\jenia\AppData\Roaming\Mindustry\mods\inf-processorDesktop.jar" && Compress-Archive -Path ".\build\libs\*" -DestinationPath ".\build\libs\inf-processor.zip" -Force && cp .\build\libs\inf-processorDesktop.jar "C:\Users\jenia\AppData\Roaming\Mindustry\mods\" && start "C:\Users\jenia\yesdaddy\Games\Minda\Mindustry 158.1\Mindustry.jar"

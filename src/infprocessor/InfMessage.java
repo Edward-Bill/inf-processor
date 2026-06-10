@@ -1,21 +1,15 @@
 package infprocessor;
 
 import mindustry.type.Category;
-import mindustry.world.blocks.logic.LogicBlock;
+import mindustry.world.blocks.logic.MessageBlock;
 import mindustry.world.meta.BuildVisibility;
 
-public class InfProcessor extends LogicBlock {
+public class InfMessage extends MessageBlock {
 
-    public InfProcessor(String name) {
+    public InfMessage(String name) {
         super(name);
-
         privileged = true;
         solid = true;
-
-        range = Float.MAX_VALUE;
-        instructionsPerTick = 1024;
-        maxInstructionsPerTick = 4096;
-        
         buildCostMultiplier = 0.25f;
         health = 1000;
         destructible = true;
@@ -23,6 +17,7 @@ public class InfProcessor extends LogicBlock {
         privileged = true;
         alwaysUnlocked = true;
         buildVisibility = BuildVisibility.shown;
+
     };
 
     @Override
